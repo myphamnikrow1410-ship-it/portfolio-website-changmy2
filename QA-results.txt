@@ -1,0 +1,152 @@
+PASS index.html: HTML structure and copy unchanged except browser theme color
+PASS projects/hitalent/index.html: HTML structure and copy unchanged except browser theme color
+PASS src/content.json: unchanged bytes
+PASS assets/theme-init.js: unchanged bytes
+PASS assets/images/portrait.webp: image unchanged
+PASS assets/images/hitalent.webp: image unchanged
+PASS assets/images/san-vui.webp: image unchanged
+PASS assets/images/giup-viec-nhanh.webp: image unchanged
+PASS CSS diff limited to palette tokens and existing nav/button color properties
+PASS HTTP 200 /
+PASS HTTP 200 /projects/hitalent/
+PASS HTTP 200 /assets/styles.css
+PASS HTTP 200 /assets/site.js
+PASS HTTP 200 /assets/theme-init.js
+PASS HTTP 200 /assets/favicon.svg
+PASS HTTP 200 /assets/images/portrait.webp
+PASS HTTP 200 /assets/images/hitalent.webp
+PASS HTTP 200 /assets/images/san-vui.webp
+PASS HTTP 200 /assets/images/giup-viec-nhanh.webp
+PASS Preserved homepage section order
+PASS Preserved project order
+PASS Three projects, images and original links retained
+PASS Nav anchor exists: #main-content
+PASS Nav anchor exists: #contact
+PASS Nav anchor exists: #about
+PASS Nav anchor exists: #background
+PASS Nav anchor exists: #projects
+PASS Nav anchor exists: #skills
+PASS Nav anchor exists: #top
+PASS 320px homepage no horizontal overflow; all images decoded
+PASS 320px homepage no JS page errors
+PASS 320px homepage exact backgrounds and primary text
+PASS 320px homepage primary button colors
+PASS 320px homepage secondary button colors
+PASS 320px homepage primary hover #87465F
+PASS 320px case study no horizontal overflow; all images decoded
+PASS 320px case study no JS page errors
+PASS 320px case study exact backgrounds and primary text
+PASS 320px case study primary button colors
+PASS 320px case study secondary button colors
+PASS 320px case study primary hover #87465F
+PASS 375px homepage no horizontal overflow; all images decoded
+PASS 375px homepage no JS page errors
+PASS 375px homepage exact backgrounds and primary text
+PASS 375px homepage primary button colors
+PASS 375px homepage secondary button colors
+PASS 375px homepage primary hover #87465F
+PASS 375px case study no horizontal overflow; all images decoded
+PASS 375px case study no JS page errors
+PASS 375px case study exact backgrounds and primary text
+PASS 375px case study primary button colors
+PASS 375px case study secondary button colors
+PASS 375px case study primary hover #87465F
+PASS 390px homepage no horizontal overflow; all images decoded
+PASS 390px homepage no JS page errors
+PASS 390px homepage exact backgrounds and primary text
+PASS 390px homepage primary button colors
+PASS 390px homepage secondary button colors
+PASS 390px homepage primary hover #87465F
+PASS mobile menu opens
+PASS mobile menu closes with Escape
+PASS 390px homepage dark toggle works
+PASS 390px homepage dark outer page color
+PASS 390px homepage light toggle restores
+PASS 390px case study no horizontal overflow; all images decoded
+PASS 390px case study no JS page errors
+PASS 390px case study exact backgrounds and primary text
+PASS 390px case study primary button colors
+PASS 390px case study secondary button colors
+PASS 390px case study primary hover #87465F
+PASS 390px case study dark toggle works
+PASS 390px case study dark outer page color
+PASS 390px case study light toggle restores
+PASS 430px homepage no horizontal overflow; all images decoded
+PASS 430px homepage no JS page errors
+PASS 430px homepage exact backgrounds and primary text
+PASS 430px homepage primary button colors
+PASS 430px homepage secondary button colors
+PASS 430px homepage primary hover #87465F
+PASS 430px case study no horizontal overflow; all images decoded
+PASS 430px case study no JS page errors
+PASS 430px case study exact backgrounds and primary text
+PASS 430px case study primary button colors
+PASS 430px case study secondary button colors
+PASS 430px case study primary hover #87465F
+PASS 600px homepage no horizontal overflow; all images decoded
+PASS 600px homepage no JS page errors
+PASS 600px homepage exact backgrounds and primary text
+PASS 600px homepage primary button colors
+PASS 600px homepage secondary button colors
+PASS 600px homepage primary hover #87465F
+PASS 600px case study no horizontal overflow; all images decoded
+PASS 600px case study no JS page errors
+PASS 600px case study exact backgrounds and primary text
+PASS 600px case study primary button colors
+PASS 600px case study secondary button colors
+PASS 600px case study primary hover #87465F
+PASS 768px homepage no horizontal overflow; all images decoded
+PASS 768px homepage no JS page errors
+PASS 768px homepage exact backgrounds and primary text
+PASS 768px homepage primary button colors
+PASS 768px homepage secondary button colors
+PASS 768px homepage primary hover #87465F
+PASS 768px case study no horizontal overflow; all images decoded
+PASS 768px case study no JS page errors
+PASS 768px case study exact backgrounds and primary text
+PASS 768px case study primary button colors
+PASS 768px case study secondary button colors
+PASS 768px case study primary hover #87465F
+PASS 1024px homepage no horizontal overflow; all images decoded
+PASS 1024px homepage no JS page errors
+PASS 1024px homepage exact backgrounds and primary text
+PASS 1024px homepage primary button colors
+PASS 1024px homepage secondary button colors
+PASS 1024px homepage primary hover #87465F
+PASS HiTalent expanded by default
+PASS Team project collapsed by default
+PASS Independent project accordion works
+PASS 1024px case study no horizontal overflow; all images decoded
+PASS 1024px case study no JS page errors
+PASS 1024px case study exact backgrounds and primary text
+PASS 1024px case study primary button colors
+PASS 1024px case study secondary button colors
+PASS 1024px case study primary hover #87465F
+PASS 1440px homepage no horizontal overflow; all images decoded
+PASS 1440px homepage no JS page errors
+PASS 1440px homepage exact backgrounds and primary text
+PASS 1440px homepage primary button colors
+PASS 1440px homepage secondary button colors
+PASS 1440px homepage primary hover #87465F
+PASS 1440px homepage dark toggle works
+PASS 1440px homepage dark outer page color
+PASS 1440px homepage light toggle restores
+PASS 1440px case study no horizontal overflow; all images decoded
+PASS 1440px case study no JS page errors
+PASS 1440px case study exact backgrounds and primary text
+PASS 1440px case study primary button colors
+PASS 1440px case study secondary button colors
+PASS 1440px case study primary hover #87465F
+PASS 1440px case study dark toggle works
+PASS 1440px case study dark outer page color
+PASS 1440px case study light toggle restores
+PASS WCAG text contrast Main text on white: 13.31:1
+PASS WCAG text contrast Muted text on white: 5.11:1
+PASS WCAG text contrast Accent small text on white: 6.66:1
+PASS WCAG text contrast Button text on primary: 4.76:1
+PASS WCAG text contrast Button text on hover: 6.84:1
+PASS WCAG text contrast Dark main text: 13.66:1
+PASS WCAG text contrast Dark secondary text: 8.38:1
+PASS WCAG text contrast Dark accent text: 8.45:1
+
+Limitations: Chromium was tested using self-contained HTML loaded with page.set_content because direct file:// and localhost browser navigation are blocked by the execution environment. Static local HTTP routes all returned 200. Full deployment and public third-party certificate/project URL permissions were not verified.

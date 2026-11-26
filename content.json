@@ -1,0 +1,450 @@
+{
+  "profile": {
+    "name": "Pham Hong Chang My",
+    "role": "Business Analyst",
+    "positioning": "I turn stakeholder needs into clear requirements and practical solutions.",
+    "email": "myphamnikrow1410@gmail.com",
+    "location": "Ha Dong District, Hanoi",
+    "phone": "033.573.9761",
+    "portrait": "assets/images/portrait.webp",
+    "cv": null
+  },
+  "about": [
+    "I have always been a quiet person, yet I admire those who can guide conversations toward a clear purpose. Watching a Business Analyst lead a discussion during an extracurricular activity first sparked my curiosity about the role.",
+    "Since then, I have explored how Business Analysts approach projects and challenged myself to apply the same process through personal projects: engaging with potential users, uncovering their real pain points, and translating insights into requirements and practical solutions.",
+    "This journey has helped me discover the work I want to pursue: collaborating with stakeholders as a Business Analyst to understand business needs, clarify requirements, and turn them into meaningful solutions."
+  ],
+  "philosophy": "Curiosity drives me to ask, listening helps me understand, and purpose guides me to make a difference.",
+  "education": {
+    "institution": "Academy of Finance (AOF)",
+    "date": "2022–2026",
+    "degree": "Bachelor's Degree in Economics",
+    "major": "Investment Economics",
+    "gpa": "3.48/4.00",
+    "recognition": [
+      "Good Student Recognition (2022–2026)",
+      "Outstanding Achievement in Scientific Research (2022–2026)"
+    ],
+    "thesis": "Investment Project Management at Hai Phong Agricultural and Rural Development Construction Investment Project Management Board"
+  },
+  "research": [
+    {
+      "title": "Second Prize – Faculty-level Scientific Research Competition",
+      "date": "2025–2026",
+      "label": "Research Project",
+      "description": "Digital Transformation, Income Distribution, and Economic Growth in Vietnam."
+    },
+    {
+      "title": "Published Conference Paper – Faculty of Economics Student Scientific Conference",
+      "date": null,
+      "label": "Paper Title",
+      "description": "Digital Transformation in Logistics: A Driving Force for Enhancing Vietnam's Economic Competitiveness."
+    },
+    {
+      "title": "Scientific Research Participation – Youth Union of the Academy of Finance",
+      "date": null,
+      "label": "Contribution",
+      "description": "Prepared a research paper titled Vietnamese Youth and Revolutionary Ideals: Enhancing Education at the Academy of Finance in the Context of Digital Transformation."
+    },
+    {
+      "title": "Scientific Research Submission – Faculty of Economics Student Scientific Conference",
+      "date": "2025–2026",
+      "label": "Contribution",
+      "description": "Prepared a research paper titled The Impact of Digital Transformation on Vietnam's Labor Market: Opportunities and Challenges."
+    },
+    {
+      "title": "Second Prize – Faculty-level Scientific Research Competition",
+      "date": "2024–2025",
+      "label": "Research Project",
+      "description": "The Impact of Economic Growth on Human Development in Vietnam from 2002 to 2022."
+    },
+    {
+      "title": "Published Conference Paper – Faculty of Economics Student Scientific",
+      "date": "2023–2024",
+      "label": "Paper Title",
+      "description": "Recommendations to Enhance Effective Investment in Vietnam's Carbon Credit Market."
+    }
+  ],
+  "projects": [
+    {
+      "id": "hitalent",
+      "name": "HiTalent",
+      "type": "Personal Project",
+      "date": "November 2026",
+      "role": "Business Analyst",
+      "platform": "Web Application",
+      "url": "https://hitalent-portfolio.vercel.app",
+      "cover": "assets/images/hitalent.webp",
+      "coverAlt": "HiTalent HR portal login interface mockup",
+      "featured": true,
+      "overview": "A recruitment-focused web application project involving market research, stakeholder elicitation, process improvement, system requirements documentation, and UI mockup design.",
+      "contributions": [
+        "Analyzed recruitment market trends and data to identify market gaps and define the project direction.",
+        "Prepared and conducted stakeholder elicitation through structured interview questions and follow-ups to identify pain points and business needs.",
+        "Analyzed AS-IS processes and stakeholder needs to propose TO-BE workflows and process improvements.",
+        "Developed BA artifacts, including 1 User Story Map, a 24-entity ERD, 10 Use Cases, 1 AS-IS BPMN diagram, and 5 TO-BE BPMN diagrams.",
+        "Documented system requirements in an SRS with 6 User Flows and 6 State Diagrams, and designed 37 UI mockup screens."
+      ],
+      "tools": [
+        {
+          "group": "BA & Design",
+          "items": [
+            "BPMN.io",
+            "Draw.io",
+            "Figma",
+            "Google Stitch"
+          ]
+        },
+        {
+          "group": "AI & Development Tools",
+          "items": [
+            "Antigravity IDE",
+            "ChatGPT"
+          ]
+        },
+        {
+          "group": "Version Control & Deployment",
+          "items": [
+            "GitHub",
+            "Vercel"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "story-map",
+          "title": "User Story Map",
+          "count": "1",
+          "category": "Requirements",
+          "url": null
+        },
+        {
+          "id": "erd",
+          "title": "ERD",
+          "count": "24 entities",
+          "category": "Data modeling",
+          "url": null
+        },
+        {
+          "id": "use-cases",
+          "title": "Use Cases",
+          "count": "10",
+          "category": "Requirements",
+          "url": null
+        },
+        {
+          "id": "as-is",
+          "title": "AS-IS BPMN diagram",
+          "count": "1",
+          "category": "Process modeling",
+          "url": null
+        },
+        {
+          "id": "to-be",
+          "title": "TO-BE BPMN diagrams",
+          "count": "5",
+          "category": "Process modeling",
+          "url": null
+        },
+        {
+          "id": "srs",
+          "title": "Software Requirements Specification (SRS)",
+          "count": null,
+          "category": "Requirements",
+          "url": null
+        },
+        {
+          "id": "user-flows",
+          "title": "User Flows",
+          "count": "6",
+          "category": "System modeling",
+          "url": null
+        },
+        {
+          "id": "state-diagrams",
+          "title": "State Diagrams",
+          "count": "6",
+          "category": "System modeling",
+          "url": null
+        },
+        {
+          "id": "mockups",
+          "title": "UI mockup screens",
+          "count": "37",
+          "category": "Solution visualization",
+          "url": null
+        }
+      ],
+      "coverSize": [
+        1420,
+        875
+      ]
+    },
+    {
+      "id": "san-vui",
+      "name": "Sân Vui – Pickleball Court Booking App",
+      "type": "Team Project",
+      "date": "September 2026",
+      "role": "Business Analyst",
+      "platform": "Mobile App",
+      "url": "https://canva.link/g1zmi1qi113rz4g",
+      "cover": "assets/images/san-vui.webp",
+      "coverAlt": "Sân Vui registration and pickleball court booking interface mockups",
+      "featured": false,
+      "overview": "A mobile application project focused on pickleball court booking, informed by user interviews and research into existing booking solutions.",
+      "contributions": [
+        "Conducted interviews with pickleball players across different user groups to understand their behaviors, needs, and pain points, and developed user personas.",
+        "Researched and compared existing booking solutions to identify market gaps and potential opportunities.",
+        "Developed a Screen Map covering 9 main screens for the Player/Court Booker role to define the application structure and navigation flows.",
+        "Designed 17 UI mockup screens to translate user requirements and screen flows into intuitive mobile interfaces."
+      ],
+      "tools": [
+        {
+          "group": null,
+          "items": [
+            "Figma",
+            "Stitch",
+            "Google Docs"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "personas",
+          "title": "User personas",
+          "count": null,
+          "category": "User research",
+          "url": null
+        },
+        {
+          "id": "screen-map",
+          "title": "Screen Map — Player/Court Booker",
+          "count": "9 main screens",
+          "category": "Navigation",
+          "url": null
+        },
+        {
+          "id": "mockups",
+          "title": "UI mockup screens",
+          "count": "17",
+          "category": "Solution visualization",
+          "url": null
+        }
+      ],
+      "coverSize": [
+        1600,
+        1559
+      ],
+      "displayName": "Sân Vui"
+    },
+    {
+      "id": "giup-viec-nhanh",
+      "name": "Giúp việc nhanh",
+      "type": "Team Project",
+      "date": "August 2026",
+      "role": "Business Analyst",
+      "platform": "Mobile App",
+      "url": "https://canva.link/ip0ex65q79kzeum",
+      "cover": "assets/images/giup-viec-nhanh.webp",
+      "coverAlt": "Giúp việc nhanh login and home interface mockups",
+      "featured": false,
+      "overview": "A mobile application project involving customers, helpers, and service coordinators, with a focus on analyzing user needs, improving workflows, and defining system functionalities.",
+      "contributions": [
+        "Prepared stakeholder interview questions and follow-ups to elicit business needs and identify pain points.",
+        "Interviewed customers, helpers, and service coordinators to analyze user needs and develop user personas.",
+        "Analyzed interview findings to model AS-IS processes and propose TO-BE workflows with improvements and exception handling.",
+        "Developed User Flows to visualize user interactions and navigation.",
+        "Defined 9 functional modules comprising 49 functions to structure system requirements.",
+        "Created a Screen Map with 5 main screens for the Service Coordinator role.",
+        "Designed 15 UI mockup screens to visualize system functionalities."
+      ],
+      "tools": [
+        {
+          "group": null,
+          "items": [
+            "BPMN.io",
+            "Figma",
+            "Stitch",
+            "Google Docs"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "personas",
+          "title": "User personas",
+          "count": null,
+          "category": "User research",
+          "url": null
+        },
+        {
+          "id": "workflows",
+          "title": "AS-IS / TO-BE workflows",
+          "count": null,
+          "category": "Process modeling",
+          "url": null
+        },
+        {
+          "id": "user-flows",
+          "title": "User Flows",
+          "count": null,
+          "category": "System modeling",
+          "url": null
+        },
+        {
+          "id": "modules",
+          "title": "Functional modules",
+          "count": "9 modules · 49 functions",
+          "category": "Requirements",
+          "url": null
+        },
+        {
+          "id": "screen-map",
+          "title": "Screen Map — Service Coordinator",
+          "count": "5 main screens",
+          "category": "Navigation",
+          "url": null
+        },
+        {
+          "id": "mockups",
+          "title": "UI mockup screens",
+          "count": "15",
+          "category": "Solution visualization",
+          "url": null
+        }
+      ],
+      "coverSize": [
+        1600,
+        1554
+      ]
+    }
+  ],
+  "skills": {
+    "Business Analysis": [
+      "Requirements Elicitation",
+      "Stakeholder Analysis",
+      "AS-IS / TO-BE Process Analysis",
+      "BRD/SRS",
+      "User Stories",
+      "Use Cases",
+      "Acceptance Criteria",
+      "BPMN",
+      "UML"
+    ],
+    "Methodologies & Frameworks": [
+      "SDLC",
+      "Agile",
+      "Scrum",
+      "Waterfall"
+    ],
+    "Tools & Technical Skills": [
+      "Draw.io",
+      "Lucidchart",
+      "Bizagi",
+      "PlantUML",
+      "Figma",
+      "DrawSQL",
+      "SQL",
+      "Excel",
+      "Jira",
+      "Postman"
+    ],
+    "Soft Skills": [
+      "Communication",
+      "Stakeholder Collaboration",
+      "Analytical Thinking",
+      "Problem Solving",
+      "Time Management"
+    ]
+  },
+  "certifications": {
+    "Business Analysis Certificate": [
+      {
+        "title": "Business Process Modeling",
+        "url": "https://drive.google.com/file/d/1hpOMSHyjABZucgD-eTwiNRKxPNym2ex4/preview"
+      },
+      {
+        "title": "Strategy Analysis",
+        "url": "https://drive.google.com/file/d/1plNiHDAa4u8G7vcFx7gN_ZMTYQCyOMk4/preview?usp=sharing"
+      },
+      {
+        "title": "Essential Facilitation and Workshop Skills",
+        "url": "https://drive.google.com/file/d/1oSWH5xBKgy-LGeXNIGKxnOyThKbqyaTl/preview?usp=sharing"
+      },
+      {
+        "title": "Essential Tools and Techniques",
+        "url": "https://drive.google.com/file/d/1GXVn12Jqeh08jjduH_FyE9yJHewJKAMX/preview?usp=sharing"
+      }
+    ],
+    "Microsoft Office": [
+      {
+        "title": "Microsoft Office Specialist: Excel",
+        "url": "https://drive.google.com/file/d/1xFSY4sA8k-aiE-Vc0SqEpROjf6zZL-Fq/preview?usp=sharing"
+      },
+      {
+        "title": "Microsoft Office Specialist: Word",
+        "url": "https://drive.google.com/file/d/1g5bpd4dGlX-4gWkEoG2phPT2A3oum2pG/preview"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "title": "Vietnamese (Native)"
+    },
+    {
+      "title": "English — TOEIC (2026)",
+      "url": "https://drive.google.com/file/d/1cp0wnFve9cloT7zRX2zGjQiPNu8yxk8I/preview"
+    }
+  ],
+  "caseStudy": [
+    {
+      "id": "market-research",
+      "title": "Market Research & Problem Analysis",
+      "contribution": 0,
+      "artifacts": []
+    },
+    {
+      "id": "stakeholder-analysis",
+      "title": "Stakeholder Analysis & Requirements Elicitation",
+      "contribution": 1,
+      "artifacts": []
+    },
+    {
+      "id": "process-analysis",
+      "title": "Business Process Analysis",
+      "contribution": 2,
+      "artifacts": [
+        "as-is",
+        "to-be"
+      ]
+    },
+    {
+      "id": "requirements",
+      "title": "Requirements Analysis & Specification",
+      "intro": "Requirements were structured through the SRS, User Story Map and Use Cases.",
+      "artifacts": [
+        "srs",
+        "story-map",
+        "use-cases"
+      ]
+    },
+    {
+      "id": "system-modeling",
+      "title": "Data & System Modeling",
+      "intro": "Data structure, user interactions and system states were documented through the ERD, User Flows and State Diagrams.",
+      "artifacts": [
+        "erd",
+        "user-flows",
+        "state-diagrams"
+      ]
+    },
+    {
+      "id": "solution-visualization",
+      "title": "Solution Visualization",
+      "intro": "UI mockups visualize the proposed solution and system requirements.",
+      "artifacts": [
+        "mockups"
+      ]
+    }
+  ]
+}

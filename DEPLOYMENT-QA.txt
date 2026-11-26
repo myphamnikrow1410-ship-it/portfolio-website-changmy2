@@ -1,0 +1,36 @@
+Deployment configuration verification — corrected static portfolio
+
+Source archive inspected: Chang_My_Final_Rose_Lavender_Complete_Project.zip
+
+Root cause assessment:
+- Old vercel.json buildCommand: npm run build:deploy
+- Old package.json build:deploy calls npm run build, invoking scripts/build.mjs
+- scripts/build.mjs EXISTS in the original archive, so MODULE_NOT_FOUND in the actual Vercel deployment cannot be uniquely attributed without its repository tree and complete build log. Plausible causes: incomplete GitHub upload or incorrect configured Root Directory.
+- Old .gitignore omitted public/ from Git commits. This made deployment depend on rebuilding assets even though the public site was prebuilt.
+
+Fix:
+- vercel.json: framework Other/null, empty buildCommand, empty installCommand, outputDirectory public, trailingSlash true
+- package.json: removed npm build scripts and the open-ended Node engines range; retained metadata only
+- .gitignore: removed public/ exclusion
+- public/ includes complete, byte-identical approved site
+- README documents settings and redeployment workflow
+
+Warning investigation:
+- Original package.json declared node >=18; Vercel warns about open-ended engine ranges. Corrected package.json no longer declares engines.
+- Both original and corrected source archives contain no .npmrc and no cache-dir/npm_config_cache_dir setting.
+- npm warn Unknown env config "cache-dir" is a warning, not the MODULE_NOT_FOUND failure; cannot inspect Vercel-hosted environment variables from the supplied log excerpt.
+- No Node or npm command will run as a configured Vercel install/build step; no Node runtime is required for these static files.
+
+Validation:
+- package.json and vercel.json parsed successfully
+- No referenced build command remains in package.json or vercel.json
+- All original website + public files preserved byte-for-byte
+- Original optional scripts/build.mjs and scripts/prepare-public.mjs preserved (syntax checked)
+- Both public HTML pages present; all relative local links/assets exist
+- On-page anchors checked
+- HTTP 200 for /, /projects/hitalent/, CSS, JavaScript, and all four images on local static server
+- No scripts, src/, package.json or vercel.json inside public/ output
+
+Limits:
+- This does not constitute a verified live Vercel deployment. Vercel project settings and deployed GitHub repository cannot be inspected from the provided log excerpt alone.
+- External third-party URLs and published permissions were not re-validated in this deployment-only fix.
