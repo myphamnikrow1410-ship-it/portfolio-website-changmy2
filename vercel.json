@@ -3,6 +3,6 @@
   "framework": null,
   "buildCommand": "",
   "installCommand": "",
-  "outputDirectory": "public",
+  "outputDirectory": ".",
   "trailingSlash": true
 }
